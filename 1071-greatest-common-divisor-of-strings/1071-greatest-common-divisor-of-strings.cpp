@@ -6,7 +6,7 @@ public:
                   return "";
         }
       
-    string ans = str1.substr(0, gcd(str1.size(), str2.size()));
+    string ans = str1.substr(0, __gcd(str1.size(), str2.size()));
     
         return ans;
     }

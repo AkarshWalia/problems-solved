@@ -21,6 +21,6 @@ public:
             }
             headB =headB->next;
         }
-        return NULL;
+        return nullptr;
     }
 };

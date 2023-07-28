@@ -8,14 +8,9 @@
  */
 class Solution {
 public:
-    void deleteNode(ListNode* node) {
-   
-         ListNode*h1;
-        node->val=node->next->val;
-        h1=node->next;
-        node->next=node->next->next;
-        delete h1;
-        
+    void deleteNode(ListNode* node) {        
+        node->val =node->next->val;
+        node->next =node->next->next;
         
     }
 };
